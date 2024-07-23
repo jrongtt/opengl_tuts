@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jackp\vcpkg\tutorial2\src\tutorial5.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\jackp\vcpkg\tutorial2\src\shaderClass.cpp">
+    <ClCompile Include="C:\Users\jackp\vcpkg\tutorial2\src\tutorial6.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\jackp\vcpkg\tutorial2\src\VAO.cpp">
@@ -14,6 +11,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="C:\Users\jackp\vcpkg\tutorial2\src\EBO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jackp\vcpkg\tutorial2\src\shaderClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jackp\vcpkg\tutorial2\src\stb.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
