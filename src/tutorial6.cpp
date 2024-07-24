@@ -90,9 +90,9 @@ int main() {
     std::cout << "EBO generated and bound successfully" << std::endl;
 
 	// Links VBO attributes such as coordinates and colors to VAO
-	VAO1.LinkAttrib(VBO1, 0, 3, GL_FLOAT, 6 * sizeof(float), (void*)0);
-	VAO1.LinkAttrib(VBO1, 1, 3, GL_FLOAT, 6 * sizeof(float), (void*)(3 * sizeof(float)));
-	VAO1.LinkAttrib(VBO1, 2, 2, GL_FLOAT, 6 * sizeof(float), (void*)(6 * sizeof(float)));
+	VAO1.LinkAttrib(VBO1, 0, 3, GL_FLOAT, 8 * sizeof(float), (void*)0);
+	VAO1.LinkAttrib(VBO1, 1, 3, GL_FLOAT, 8 * sizeof(float), (void*)(3 * sizeof(float)));
+	VAO1.LinkAttrib(VBO1, 2, 2, GL_FLOAT, 8 * sizeof(float), (void*)(6 * sizeof(float)));
 
 	// Unbind all to prevent accidentally modifying them
 
@@ -105,7 +105,16 @@ int main() {
     GLuint uniID = glGetUniformLocation(shaderProgram.ID, "scale");
 
     int widthImg, heightImg, numColCh;
-    unsigned char* bytes = stbi_load("pop_cat.png", &widthImg, &heightImg, &numColCh, 0);
+    stbi_set_flip_vertically_on_load(true);
+    unsigned char* bytes = stbi_load("C:/Users/jackp/vcpkg/tutorial2/resource/Textures/pop_cat.png", &widthImg, &heightImg, &numColCh, 0);
+
+    std::cout << "image width: " << widthImg << " Image hieht: " << heightImg << " numColCh: " << numColCh << std::endl; 
+
+    if (!bytes) {
+        std::cerr << "Failed to load texture image!" << std::endl;
+        std::cerr << "STB Image error: " << stbi_failure_reason() << std::endl;
+        return -1;
+    }
 
     GLuint texture;
     glGenTextures(1, &texture);
