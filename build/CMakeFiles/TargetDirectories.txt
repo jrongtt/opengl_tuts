@@ -1,3 +1,2 @@
-C:/Users/jackp/vcpkg/tutorial2/build/CMakeFiles/ModernOpenGL.dir
 C:/Users/jackp/vcpkg/tutorial2/build/CMakeFiles/ALL_BUILD.dir
 C:/Users/jackp/vcpkg/tutorial2/build/CMakeFiles/ZERO_CHECK.dir

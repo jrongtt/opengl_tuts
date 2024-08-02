@@ -1,6 +1,6 @@
 ^C:\USERS\JACKP\VCPKG\TUTORIAL2\BUILD\CMAKEFILES\B538E9F2CDA63C35674DBE0F4651F7BB\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jackp/vcpkg/tutorial2 -BC:/Users/jackp/vcpkg/tutorial2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jackp/vcpkg/tutorial2/build/ModernOpenGL.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jackp/vcpkg/tutorial2 -BC:/Users/jackp/vcpkg/tutorial2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jackp/vcpkg/tutorial2/build/Project.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

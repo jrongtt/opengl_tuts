@@ -112,7 +112,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=ModernOpenGL
+CMAKE_PROJECT_NAME:STATIC=Project
 
 //RC compiler
 CMAKE_RC_COMPILER:FILEPATH=rc
@@ -196,6 +196,15 @@ ModernOpenGL_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 ModernOpenGL_SOURCE_DIR:STATIC=C:/Users/jackp/vcpkg/tutorial2
+
+//Value Computed by CMake
+Project_BINARY_DIR:STATIC=C:/Users/jackp/vcpkg/tutorial2/build
+
+//Value Computed by CMake
+Project_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Project_SOURCE_DIR:STATIC=C:/Users/jackp/vcpkg/tutorial2
 
 //Automatically copy dependencies into the output directory for
 // executables.
